@@ -1,0 +1,232 @@
+.footer {
+  margin-top: -78px;
+  padding: 0;
+  background-color: #0f2333;
+  width: 100%;
+}
+
+.footer_header {
+  width: 1440px;
+  margin: auto;
+  padding-top: 127px;
+}
+.footer_header_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-bottom: 64px;
+}
+.footer_header img {
+  width: 180px;
+  height: 40px;
+}
+.footer_header p {
+  color: #dbdbdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 0px 14px;
+  padding: 0;
+}
+.footer_subscription h6 {
+  color: #dbdbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+ margin: 24px 0px 42px;
+}
+.subscription_form {
+  margin-top: 16px;
+}
+.subscription_form input[type="email"] {
+  width: 443px;
+  height: 39px;
+  border-radius: 5px;
+  border: 1px solid #5a6975;
+  background: #0f2333;
+  transition: 0.3s;
+}
+.subscription_form input[type="email"]:focus {
+  color: white;
+  font-size: medium;
+  border: 1px solid #f80;
+  outline: #f80;
+}
+.subscription_form input[type="submit"] {
+  border-radius: 5px;
+  background: #f80;
+  width: 143px;
+  height: 42px;
+  border: none;
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.social_links {
+  display: flex;
+  gap: 16px;
+}
+
+.facebook_link {
+  padding: 0px 6px;
+  padding-top: 6px;
+  border: 1px solid #5a6975;
+  border-radius: 50%;
+}
+.youtube_link {
+  padding: 0px 6px;
+  padding-top: 6px;
+  border: 1px solid #5a6975;
+  border-radius: 50%;
+}
+.instagram_link {
+  padding: 0px 6px;
+  padding-top: 6px;
+  border: 1px solid #5a6975;
+  border-radius: 50%;
+}
+.twitter_link {
+  padding: 0px 6px;
+  padding-top: 6px;
+  border: 1px solid #5a6975;
+  border-radius: 50%;
+}
+.social_link_section p {
+  color: #dbdbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 16px 0px 14px;
+}
+
+.mobile_app p{
+  margin: 16px 0px 14px;
+}
+
+.mobile_app_poster {
+  display: flex;
+  gap: 24px;
+}
+
+.divider {
+  border: 1px solid #5A6975;
+}
+
+.footer_links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+
+  /* justify-content: space-evenly; */
+  margin-top: 64px;
+  width: 1440px;
+  margin: auto;
+}
+
+.footer_useful_links h6 {
+  color: #dbdbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+  margin: 42px 0px 16px;
+}
+
+.footer_useful_links a {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.footer_contacts_links h6 {
+  color: #dbdbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 42px 0px 16px;
+}
+.footer_contacts_links h5 {
+  color: #dbdbdb;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.footer_contacts_links p {
+  color: #dbdbdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin:14px 0px;
+}
+
+.special_links h6 {
+  color: #dbdbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 42px 0px 16px;
+}
+.special_links a {
+  color: #dbdbdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  line-height: 1.6rem;
+}
+
+.account_shipping h6 {
+  color: #dbdbdb;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 42px 0px 16px;
+}
+
+.account_shipping a {
+  color: #dbdbdb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.6rem;
+}
+.copy_footer{
+    background-color:#383938;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    
+   
+}
+.copy_footer p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 14px;
+  
+}

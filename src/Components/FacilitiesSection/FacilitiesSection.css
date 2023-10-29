@@ -1,0 +1,63 @@
+.facility_section{
+    width: 1440px; 
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.warehouses {
+    width: 342px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+
+}
+.content h1{
+  margin: 20px 0px;
+}
+.content p{
+  margin: 16px 0px;
+}
+.enjoy_offers {
+    width: 342px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.support {
+  width: 342px;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.cash_one_delivery {
+  width: 342px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.content{
+    padding:24px;
+}
+@media screen and (max-width:576px) {
+  .facility_section {
+    display: block;
+    width: 90%;
+    margin: 25px auto;
+  }
+  .warehouses{
+    margin-bottom: 20px;
+  }
+  .enjoy_offers{
+    margin-bottom: 20px;
+  }
+  .support{
+    margin-bottom: 20px;
+  }
+  .cash_one_delivery{
+    margin-bottom: 20px;
+  }
+}

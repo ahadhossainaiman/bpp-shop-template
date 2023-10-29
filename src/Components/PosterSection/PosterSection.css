@@ -1,0 +1,11 @@
+.poster_section {
+  width: 1440px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+@media screen and (max-width:576px) {
+  .poster_section{
+    display: none;
+  }
+}

@@ -1,0 +1,53 @@
+.discount_products_container {
+  display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+.discount_products_banner img{
+    width: 340px;
+height: 100%;
+}
+.discount_products_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #D4D4D4;;
+}
+.discount_products_content{
+    margin-left: 32px;
+}
+.discount_products_header h1 {
+  color: #333;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.discount_products_header a {
+  text-decoration: none;
+  color: #f80;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width:576px) {
+  .discount_products_banner img{
+    display: none;
+  }
+  .discount_products_content{
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .discount_products_header{
+    margin: 10px 0px;
+  }
+  
+ 
+}
