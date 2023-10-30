@@ -36,7 +36,7 @@ const Home = () => {
             <ProductsSection/>
             <CustomerService/>
             <FacilitiesSection/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
 
     );

@@ -10,6 +10,9 @@
   height: 100%;
   width: 340px;
 }
+.hot_deals_container{
+  margin-bottom: 15px;
+}
 .hot_deals {
   width: 1000px;
   margin-left: 32px;
@@ -71,6 +74,7 @@ span {
 
 .hot_deals_products {
   width: 232px;
+  align-items: center;
 }
 .hot_deals_products_content {
   border: 1px solid #d9d9d9;
@@ -157,12 +161,16 @@ small {
   text-align: center;
 }
 
-.mySwiper_hot_deals {
+/* .mySwiper_hot_deals {
   padding: 20px;
-}
+} */
 .mySwiper_hot_deals_sm{
   display: none;
 }
+.hot_deals_products_section{
+  width: 232px!important;
+}
+
 
 @media screen and (max-width:576px) {
   .hot_sale_container{
