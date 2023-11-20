@@ -22,8 +22,8 @@ const Home = () => {
     return (
         <>
             <HeroSection/>
-            <HotSaleSection/>
-            <CategorySection/>
+            {/* <HotSaleSection/> */}
+            {/* <CategorySection/>
             <DiscountSection/>
             <PopularSection/>
             <NewArrivalSection/>
@@ -36,7 +36,7 @@ const Home = () => {
             <ProductsSection/>
             <CustomerService/>
             <FacilitiesSection/>
-            {/* <Footer/> */}
+            <Footer/> */}
         </>
 
     );
