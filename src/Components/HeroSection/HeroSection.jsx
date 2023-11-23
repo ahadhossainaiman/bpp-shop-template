@@ -56,30 +56,6 @@ const HeroSection = () => {
         </div>
       
         <div className="hero_slider">
-        {/* <Swiper
-        style={{
-          "--swiper-navigation-color": "#fff",
-          "--swiper-pagination-color": "#fff"
-        }}
-        spaceBetween={40}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false
-        }}
-        pagination={{
-          clickable: true
-        }}
-        navigation={true}
-        modules={[Autoplay, Navigation]}
-        className="mySwiper_hero_section"
-      >
-        <SwiperSlide  className="slider_img">
-          <img src={sliderImgOne} />
-        </SwiperSlide>
-        <SwiperSlide>   <img src={sliderImgTwo} /></SwiperSlide>
-        <SwiperSlide>   <img src={sliderImgThree} /></SwiperSlide>
-      </Swiper> */}
       <Slider {...settings}>
           <div className="mySwiper_hero_section">
           <img src={sliderImgOne} />
